@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook – log in or sign up</title>
+
+    <link rel="icon" type="image/png" href="facebook_logo_icon_147291.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-slate-100 min-h-screen flex items-center justify-center">
+    <div
+      class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-around gap-10"
+    >
+      <!-- LEFT SECTION -->
+      <div class="flex flex-col items-center lg:items-start">
+        <img class="w-48 mb-4" src="./FB.svg" alt="Facebook logo" />
+
+        <h2 class="text-4xl font-semibold text-center lg:text-left">
+          Recent logins
+        </h2>
+        <p class="text-gray-700 text-center lg:text-left mt-1">
+          Click your picture or add an account.
+        </p>
+
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4 mt-4">
+          <!-- CARD 1 -->
+          <div class="bg-white w-32 lg:w-36 rounded-lg shadow-md">
+            <div class="h-32 overflow-hidden rounded-t-lg">
+              <img
+                class="w-full h-full object-cover"
+                src="card1.jpg"
+                alt="Profile"
+              />
+            </div>
+            <p class="text-center py-2 text-sm font-medium">Netre Pil</p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="bg-white w-32 lg:w-36 rounded-lg shadow-md">
+            <div class="h-32 overflow-hidden rounded-t-lg">
+              <img
+                class="w-full h-full object-cover"
+                src="card2.png"
+                alt="Profile"
+              />
+            </div>
+            <p class="text-center py-2 text-sm font-medium">Aniket</p>
+          </div>
+
+          <!-- ADD ACCOUNT -->
+          <div class="bg-white w-32 lg:w-36 rounded-lg shadow-md">
+            <div
+              class="h-32 flex items-center justify-center bg-gray-200 rounded-t-lg"
+            >
+              <img class="h-12 w-12" src="plus.png" alt="Add" />
+            </div>
+            <p class="text-center py-2 text-sm font-medium text-blue-600">
+              Add Account
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SECTION -->
+      <div class="w-full max-w-sm">
+        <div class="bg-white p-5 rounded-lg shadow-lg">
+          <input
+            class="w-full h-11 px-4 mb-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+            type="text"
+            placeholder="Email address or phone number"
+          />
+
+          <input
+            class="w-full h-11 px-4 mb-3 border rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+            type="password"
+            placeholder="Password"
+          />
+
+          <button
+            class="w-full bg-blue-600 text-white py-2 rounded-md font-bold hover:bg-blue-700"
+          >
+            Log in
+          </button>
+
+          <p
+            class="text-center text-blue-600 mt-3 cursor-pointer hover:underline"
+          >
+            Forgotten password?
+          </p>
+
+          <hr class="my-4" />
+
+          <button
+            class="w-full bg-green-600 text-white py-2 rounded-md font-bold hover:bg-green-700"
+          >
+            Create new account
+          </button>
+        </div>
+
+        <p class="text-center mt-6 text-sm">
+          <span class="font-bold">Create a Page</span> for a celebrity, brand or
+          business.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
